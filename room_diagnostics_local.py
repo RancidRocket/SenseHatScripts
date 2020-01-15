@@ -28,8 +28,8 @@ def thermometer():
 	temp = sense.get_temperature()
 	sleep(1)
 	strtemp = (str(int(temp)))
-	strtemp10 = strtemp + 10
-	sense.show_message(strtemp10 "degC", text_colour=green, back_colour=black, scroll_speed=0.05)
+	strtemp10 = strtemp - 10
+	sense.show_message(strtemp10 + "degC", text_colour=green, back_colour=black, scroll_speed=0.05)
 
 #defining barometric pressure measurement function to display on 8x8 led display on SenseHat
 def barometric():
