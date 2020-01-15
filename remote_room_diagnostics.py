@@ -6,6 +6,15 @@ from time import sleep
 sense = SenseHat()
 sense.clear()
 
+
+print("__________               __           __   __      __                              ")
+print("\______   \ ____   ____ |  | __ _____/  |_/  \    /  \_____ _______   ____ ________")
+print(" |       _//  _ \_/ ___\|  |/ // __ \   __\   \/\/   /\__  \\_  __ \_/ __ \\___   /")
+print(" |    |   (  <_> )  \___|    <\  ___/|  |  \        /  / __ \|  | \/\  ___/ /    / ")
+print(" |____|_  /\____/ \___  >__|_ \\___  >__|   \__/\  /  (____  /__|    \___  >_____ \")
+print("        \/            \/     \/    \/            \/        \/            \/      \/")
+print("                                Remote Room Diagnostics                            ")
+
 #defining humidity measurement function to print
 def humidity():
 	humid = sense.get_humidity()
